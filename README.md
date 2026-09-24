@@ -16,9 +16,15 @@
 Запуск:
 
 python ck_activate.py                 # всё сразу с дефолтами
+
 python ck_activate.py --list-fields
+
 python ck_activate.py --client-units 5000 --product-limit 1000000
+
 python ck_activate.py --field 24=5000 --field 25=0x00DB0040
+
 python ck_activate.py --glic "C:\Analiz\genesis\demo.glic"
+
 python ck_activate.py --dry-run
+
 python ck_activate.py --no-start      # сервер уже запущен
